@@ -1,2 +1,1 @@
-# MMTestPod
- test pod
+pod "MMTestPod"

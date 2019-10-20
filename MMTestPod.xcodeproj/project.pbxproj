@@ -13,6 +13,7 @@
 		FA721D55235747B600104F42 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FA721D54235747B600104F42 /* Assets.xcassets */; };
 		FA721D58235747B600104F42 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FA721D56235747B600104F42 /* LaunchScreen.storyboard */; };
 		FA721D5B235747B600104F42 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FA721D5A235747B600104F42 /* main.m */; };
+		FA721D64235C4F3E00104F42 /* TestObject.m in Sources */ = {isa = PBXBuildFile; fileRef = FA721D63235C4F3E00104F42 /* TestObject.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,8 @@
 		FA721D57235747B600104F42 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		FA721D59235747B600104F42 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		FA721D5A235747B600104F42 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		FA721D62235C4F3E00104F42 /* TestObject.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TestObject.h; sourceTree = "<group>"; };
+		FA721D63235C4F3E00104F42 /* TestObject.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TestObject.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +61,7 @@
 		FA721D4A235747B200104F42 /* MMTestPod */ = {
 			isa = PBXGroup;
 			children = (
+				FA721D61235C4F2D00104F42 /* MMTestPod */,
 				FA721D4B235747B200104F42 /* AppDelegate.h */,
 				FA721D4C235747B200104F42 /* AppDelegate.m */,
 				FA721D4E235747B200104F42 /* ViewController.h */,
@@ -67,6 +71,15 @@
 				FA721D56235747B600104F42 /* LaunchScreen.storyboard */,
 				FA721D59235747B600104F42 /* Info.plist */,
 				FA721D5A235747B600104F42 /* main.m */,
+			);
+			path = MMTestPod;
+			sourceTree = "<group>";
+		};
+		FA721D61235C4F2D00104F42 /* MMTestPod */ = {
+			isa = PBXGroup;
+			children = (
+				FA721D62235C4F3E00104F42 /* TestObject.h */,
+				FA721D63235C4F3E00104F42 /* TestObject.m */,
 			);
 			path = MMTestPod;
 			sourceTree = "<group>";
@@ -143,6 +156,7 @@
 			files = (
 				FA721D50235747B200104F42 /* ViewController.m in Sources */,
 				FA721D5B235747B600104F42 /* main.m in Sources */,
+				FA721D64235C4F3E00104F42 /* TestObject.m in Sources */,
 				FA721D4D235747B200104F42 /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
