@@ -16,7 +16,7 @@ Pod::Spec.new do |s|
   #
 
   s.name         = "MMTestPod"
-  s.version      = "2"
+  s.version      = "1.3"
   s.summary      = "MMTestPod."
 
   # This description is used to generate tags and improve search results.
